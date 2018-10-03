@@ -1,0 +1,71 @@
+---
+title: "Analysis"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+contributors:
+  output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 14px;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 38px;
+  color: DimGrey;
+}
+h1 { /* Header 1 */
+  font-size: 28px;
+  color: Grey;
+}
+h2 { /* Header 2 */
+    font-size: 22px;
+  color: DarkGrey;
+}
+h3 { /* Header 3 */
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: Orange;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+
+```
+
+## Purpose of this work
+
+## Data available
+```{r load, include=FALSE}
+# load data
+
+
+#print field names and classes
+
+
+```
+
+## cleaning
+
+## Analysis
+
+## Results
+
+## Summary
+
+

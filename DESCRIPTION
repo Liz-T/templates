@@ -1,0 +1,9 @@
+Package: analysisTemplate
+Title: markdown template for analysis
+Version: 0.1
+Authors@R: person("Liz-T", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: loads a template with custom yaml, style and sections to organise analysis workflow .
+Depends: 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
