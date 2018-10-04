@@ -18,26 +18,29 @@ td {  /* Table  */
 }
 h1.title {
   font-size: 38px;
-  color: DimGrey;
+  color: Black;
 }
 h1 { /* Header 1 */
   font-size: 28px;
-  color: Grey;
+  color: DIMGRAY;
 }
 h2 { /* Header 2 */
     font-size: 22px;
-  color: DarkGrey;
+  color: GRAY;
 }
 h3 { /* Header 3 */
   font-size: 18px;
-  font-family: "Times New Roman", Times, serif;
-  color: Orange;
+  color: DARKGRAY;
+}
+h4 { /* Header 4 */
+    font-size: 16px;
+  color: SILVER;
 }
 code.r{ /* Code block */
     font-size: 12px;
 }
 pre { /* Code block - determines code spacing between lines */
-    font-size: 14px;
+    font-size: 16px;
 }
 </style>
 
