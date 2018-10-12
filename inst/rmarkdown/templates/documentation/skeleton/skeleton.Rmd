@@ -7,10 +7,11 @@ output:
     #toc_depth: 3
     #toc_float: true
     css: analysis.css
+
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
 library(ggplot2)
 
@@ -19,11 +20,30 @@ library(ggplot2)
 ## Purpose of this work
 
 ## Data available
+
+
 ```{r load, include=FALSE}
 # load data
+a <- c(1:20)
+b <- c(rep("blue",12),rep("green",8))
+c <- c(rep("TRUE",4),rep("FALSE",16))
+data <- data.frame(a,b,c)
+
+rm(list=setdiff(ls(), "data"))
 
 #print field names and classes
+class <- sapply(data,class)
+```
 
+A sample of the data
+
+``` {r}
+sample_n(data,15)
+```
+
+A check for class type
+``` {r}
+class
 ```
 
 ### Sub heading 3
@@ -32,7 +52,11 @@ Something to say
 #### Sub heading 4
 Something to say
 
-## cleaning
+* turnips
+* parsnips
+* carrots
+
+## Cleaning
 
 ## Analysis
 
