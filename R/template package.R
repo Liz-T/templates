@@ -9,12 +9,13 @@ dir.create("analysisTemplate/inst/rmarkdown/templates/documentation/skeleton",
 # name: blarblar
 #
 
-----
+# ----
 
 #install from github
   devtools::install_github("Liz-T/stuff/analysisTemplate")
+#  remove.packages("analysisTemplate")
 
-----
+# ----
 
 # .css specific file
 # include this in a specfic file rather than take up spac ein template, include this line in heading under output
@@ -22,9 +23,9 @@ dir.create("analysisTemplate/inst/rmarkdown/templates/documentation/skeleton",
 
 # this should go in the skeleton folder
 
-----
+# ----
 
 # resources used
 # https://rstudio.github.io/rstudio-extensions/rmarkdown_templates.html
-  # https://github.com/rstudio/rmarkdown/blob/master/inst/rmarkdown/templates/html_vignette/skeleton/skeleton.Rmd
+# https://github.com/rstudio/rmarkdown/blob/master/inst/rmarkdown/templates/html_vignette/skeleton/skeleton.Rmd
 
