@@ -1,13 +1,11 @@
 ---
 title: "Analysis"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-contributors:
-  output:
+output:
   html_document:
-    toc: true
-    toc_depth: 3
-    toc_float: true
-    theme: null
+    #toc: true
+    #toc_depth: 3
+    #toc_float: true
     css: analysis.css
 ---
 
@@ -24,11 +22,15 @@ library(ggplot2)
 ```{r load, include=FALSE}
 # load data
 
-
 #print field names and classes
 
-
 ```
+
+### Sub heading 3
+Something to say
+
+#### Sub heading 4
+Something to say
 
 ## cleaning
 
