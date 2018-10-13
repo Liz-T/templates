@@ -10,6 +10,7 @@ output:
     df_print: paged
 
 ---
+![](testlogo.jpg)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
