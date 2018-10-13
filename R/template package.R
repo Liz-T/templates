@@ -39,7 +39,9 @@ dir.create("packagename/inst/rmarkdown/templates/documentation/skeleton",
 
 # https://rstudio.github.io/rstudio-extensions/rmarkdown_templates.html
 # https://github.com/rstudio/rmarkdown/blob/master/inst/rmarkdown/templates/html_vignette/skeleton/skeleton.Rmd
+# http://freerangestats.info/blog/2017/09/09/rmarkdown
 
+# https://bookdown.org/yihui/rmarkdown/format-derive.html more about custom formats based on existing
 
 # ----
   # this worked but then lost all the other formatting coming from the theme
