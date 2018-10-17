@@ -1,4 +1,4 @@
-Package: analysisTemplate
+Package: templates
 Title: markdown template for analysis
 Version: 0.2
 Authors@R: person("Liz-T", "Last", email = "first.last@example.com", role = c("aut", "cre"))
